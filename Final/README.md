@@ -88,7 +88,7 @@ ${PROJECT}
 ```
 
 ## 3. 코드 전부 실행 후 디렉토리 및 파일 위치 구조
-```
+'''
 ${PROJECT}
 ├── weight/
 │       └── Weight.csv : train.ipynb 실행 후 새로 저장되는 가중치데이터
