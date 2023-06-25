@@ -42,6 +42,7 @@ ${PROJECT}
 - 클래스를 배열 형태로 바꾸는 ANN Labeling하기
 - k-fold 된 데이터, ANN Labeling과 정렬된 test 데이터를 DATA 폴더 하위 위치에 아래와 같이 저장하기
 ※ ANN Labeling은 ANN 모델 학습을 위하여 5가지 클래스 값을 1차원 배열로 바꾸었다.
+```
 DATA
 ├── 00_source/
 │          └── train.csv
@@ -52,6 +53,7 @@ DATA
 │                  ... (k=10으로 10개 생성)
 │         └── test.csv ... preprocess.ipynb 실행 후 다시 저장되는 예측데이터 
 └── sample_submission.csv
+```
 
 2-2. train.ipynb
 위 파일에서는 학습을 진행한다.
@@ -60,13 +62,14 @@ DATA
 - k-fold 교차검증을 이용하여 ANN 모델 10개를 학습한다.
 - 모델 가중치를 k-fold 교차검증 시 각 모델의 최종 accuracy로 설정한다.
 - 가중치와 ANN 모델 10개를 아래와 같이 저장한다.
+```
 ${PROJECT}
 ├── weight/
 │       └── Weight.csv : train.ipynb 실행 후 새로 저장되는 가중치데이터
 ├── Models/
 │       ├── ann_1.h5 : train.ipynb 실행 후 새로 저장되는 모델
          └──        ... (k=10으로 10개 생성)
-
+```
 2-3. predict.ipynb
 위 파일에서는 예측을 한다.
 - 모델 10개, 가중치 파일, test 데이터 가져오기
@@ -74,12 +77,13 @@ ${PROJECT}
 - 각 예측값에 대하여 각 모델의 가중치를 곱한후 모두 더하여 최종 예측값 생성
 - 최종 예측값을 이용하여 클래스 추론하기
 - 예측한 데이터를 아래와 같은 위치에 저장하기
+```
 ${PROJECT}
 ├── weight/
 ├── Models/
 ├── results/  
          └──predictions.csv : predict.ipynb 실행 후 새로 저장되는 예측결과데이터
-
+```
 3. 코드 전부 실행 후 디렉토리 및 파일 위치 구조
 ```
 ${PROJECT}
