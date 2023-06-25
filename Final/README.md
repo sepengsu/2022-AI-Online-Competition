@@ -20,9 +20,13 @@ ${PROJECT}
 └── preprocess.ipynb
 ```
 폴더
+
 weight: 추론에 필요한 가중치 정보 파일 csv를 저장하는 폴더
+
 Models: 학습된 모델을 저장하는 폴더 (h5파일로 모델 저장)
+
 results: 최종 예측 데이터를 저장하는 폴더 
+
 파일
 - preprocess.ipynb: 데이터 전처리 시 실행하는 코드
 - train.ipynb: 학습 시 실행하는 코드
