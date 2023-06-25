@@ -5,7 +5,8 @@
 
 참가자: 서재원(펭수)
 
-데이터 및 결과는 대회 규정상 삭제하였습니다.
+1. 데이터 및 결과는 대회 규정상 삭제하였습니다.
+2. 모델 설명 및 프로세스 설명은 final README.md에 있습니다.
 
 ### 대회 표지
 ![image](https://github.com/sepengsu/2022-AI-Online-Competition/assets/111292354/6a423084-8447-4ab5-818f-779b59bc1f3f)
