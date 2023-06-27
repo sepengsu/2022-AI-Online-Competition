@@ -9,8 +9,9 @@
 2. 모델 설명 및 프로세스 설명은 Final폴더에서의 README.md에 있습니다.
 
 ### 대회 표지
-![image](https://github.com/sepengsu/2022-AI-Online-Competition/assets/111292354/6a423084-8447-4ab5-818f-779b59bc1f3f)
+![image](https://github.com/sepengsu/2022-AI-Online-Competition/assets/111292354/cf3bea42-8a6a-46e6-8d26-fc64a7f7998e)
+
 
 ### 최종 순위
-![image](https://github.com/sepengsu/2022-AI-Online-Competition/assets/111292354/8e11dbd6-314b-42b4-8a2f-65247a9935b0)
+![image](https://github.com/sepengsu/2022-AI-Online-Competition/assets/111292354/25eaf0e9-1a35-40b1-8f88-2cff29f954a9)
 
